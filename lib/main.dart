@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:toters_project/Task.dart';
+import 'package:toters_project/Thirdpage.dart';
+import 'package:toters_project/fourthpage.dart';
 import 'package:toters_project/secondpage.dart';
 
 void main() {
@@ -27,7 +29,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home:Task(),
+      home:fourthpage(),
     );
   }
 }
